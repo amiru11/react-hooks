@@ -4,7 +4,11 @@ import "./App.css";
 
 import HookState from "./components/basic/UseState";
 import HookEffect from "./components/basic/UseEffect";
-import { HookReducerOne, HookReducerTwo } from "./components/basic/UseReducer";
+import {
+  HookReducerOne,
+  HookReducerTwo
+} from "./components/additional/UseReducer";
+import HookMemo from "./components/additional/UseMemo";
 
 function App() {
   return (
@@ -20,6 +24,8 @@ function App() {
         <HookReducerOne />
         <h2>This is HookReducer For Input Control</h2>
         <HookReducerTwo />
+        <h2>This is HookMemo</h2>
+        <HookMemo />
       </header>
     </div>
   );

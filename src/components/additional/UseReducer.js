@@ -61,6 +61,7 @@ export function HookReducerTwo() {
     <>
       <div>
         <input type="text" name="name" value={name} onChange={handleChange} />
+        <br />
         <input
           type="text"
           name="nickname"
